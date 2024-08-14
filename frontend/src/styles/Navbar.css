@@ -1,0 +1,24 @@
+/* src/styles/Navbar.css */
+.navbar {
+    background-color: #333; /* Dark background */
+    overflow: hidden; /* Clear floats */
+}
+
+.navbar a {
+    float: left; /* Align links to the left */
+    display: block; /* Make links fill the container */
+    color: #f2f2f2; /* Light color for text */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Padding around text */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Light background on hover */
+    color: black; /* Dark text on hover */
+}
+
+.navbar a.active {
+    background-color: #4CAF50; /* Highlight active link */
+    color: white; /* White text for active link */
+}
